@@ -1,26 +1,60 @@
+@import url("./css/card.css");
+
 :root {
-  --background-color: hotpink;
+  --background-color-primary: black;
+  --background-color-secondary: salmon;
+  --background-color-tertiary: mediumpurple;
+  --heading-color: white;
   font-size: 10px;
-  margin: 10px;
-  padding: 2px;
 }
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 60px;
+  background-color: var(--background-color-secondary);
 }
 
 header {
-  padding: 10px;
+  padding: 0px;
   width: 100vw;
-  background-color: var(--background-color);
+  background-color: var(--background-color-primary);
   top: 0px;
   position: fixed;
+  margin: 0px;
 }
 
 .header__heading {
   font-size: 3rem;
+  text-align: center;
+  color: var(--heading-color);
 }
 
-body {
-  background-color: blue;
+.header__subheading {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+}
+
+.card {
+  background-color: var(--background-color-tertiary);
+  border-radius: 5%;
+  width: 300px;
+  height: 100px;
+}
+
+.card__question {
+  text-align: center;
 }
