@@ -1,0 +1,63 @@
+section {
+  margin: 20px;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 5px;
+}
+
+.card {
+  background-color: var(--background-color-tertiary);
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px, 6px 6px 0px 0px;
+}
+
+.card__question {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  color: var(--heading-color);
+  font-size: 1.5rem;
+}
+
+.card__bookmark {
+  position: absolute;
+  background-color: var(--border-color-primary);
+  border-color: var(--border-color-primary);
+  right: 0px;
+  transform: translate(-20%, -0%);
+}
+
+.card__answerclick {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px, 6px 6px 0px 0px;
+  background-color: var(--background-color-secondary);
+  border-color: var(--border-color-secondary);
+}
+
+.card__answer {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, -50%);
+  color: var(--heading-color);
+}
+
+.cardtag {
+  color: var(--heading-color);
+  background-color: var(--background-color-primary);
+  font-size: 1.2rem;
+  padding: 2px;
+}
