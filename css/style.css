@@ -1,8 +1,12 @@
+@import "card.css";
+
 :root {
-  --background-color-primary: black;
-  --background-color-secondary: salmon;
-  --background-color-tertiary: mediumpurple;
-  --heading-color: white;
+  --background-color-primary: #000000;
+  --background-color-secondary: #ff930f;
+  --background-color-tertiary: #9370d8;
+  --heading-color: #ffffff;
+  --border-color-primary: transparent;
+  --border-color-secondary: var(--background-color-secondary);
   font-size: 10px;
 }
 
@@ -14,17 +18,23 @@
 }
 
 body {
-  margin-top: 60px;
+  margin-top: 55px;
+  margin-bottom: 50px;
   background-color: var(--background-color-secondary);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
-  padding: 0px;
+  padding: 5px;
   width: 100vw;
   background-color: var(--background-color-primary);
   top: 0px;
   position: fixed;
-  margin: 0px;
 }
 
 .header__heading {
@@ -39,19 +49,10 @@ header {
   color: var(--heading-color);
 }
 
-section {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  display: flex;
-}
-
-.card {
-  background-color: var(--background-color-tertiary);
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.card__question {
+footer {
   position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: var(--background-color-primary);
 }
