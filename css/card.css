@@ -54,3 +54,10 @@ section {
   transform: translate(-50%, -50%);
   color: var(--heading-color);
 }
+
+.cardtag {
+  color: var(--heading-color);
+  background-color: var(--background-color-primary);
+  font-size: 1.2rem;
+  padding: 2px;
+}
