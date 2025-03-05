@@ -1,0 +1,17 @@
+section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+}
+
+.card {
+  background-color: var(--background-color-tertiary);
+  border-radius: 5%;
+  width: 300px;
+  height: 100px;
+}
+
+.card__question {
+  text-align: center;
+}
