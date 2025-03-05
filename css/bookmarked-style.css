@@ -1,4 +1,4 @@
-@import "card.css";
+@import "bookmarked-card.css";
 
 :root {
   --background-color-primary: #000000;
@@ -65,13 +65,13 @@ footer {
 .footer__homepage {
   width: 75px;
   height: 50px;
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-tertiary);
 }
 
 .footer__bookmarkspage {
   width: 75px;
   height: 50px;
-  background-color: var(--background-color-tertiary);
+  background-color: var(--background-color-secondary);
 }
 
 .footer__profilepage {
