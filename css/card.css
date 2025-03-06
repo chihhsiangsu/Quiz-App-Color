@@ -39,11 +39,15 @@ section {
   position: absolute;
   left: 50%;
   top: 65%;
+  border-color: var(--border-color-tertiary);
   transform: translate(-50%, -50%);
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
     5px 5px 0px 0px, 6px 6px 0px 0px;
   background-color: var(--background-color-secondary);
-  border-color: var(--border-color-secondary);
+}
+
+.card__answerclick:hover {
+  background-color: var(--background-color-tertiary);
 }
 
 .card__answer {
@@ -60,4 +64,5 @@ section {
   background-color: var(--background-color-primary);
   font-size: 1.2rem;
   padding: 2px;
+  margin-left: 2px;
 }
