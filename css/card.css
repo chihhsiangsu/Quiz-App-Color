@@ -20,10 +20,10 @@ section {
   position: absolute;
   text-align: center;
   left: 50%;
-  top: 30%;
+  top: 40%;
   transform: translate(-50%, -50%);
   color: var(--heading-color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .card__bookmark {
@@ -38,7 +38,7 @@ section {
   width: 100px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 65%;
   transform: translate(-50%, -50%);
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
     5px 5px 0px 0px, 6px 6px 0px 0px;
@@ -50,7 +50,7 @@ section {
   position: absolute;
   text-align: center;
   left: 50%;
-  bottom: 20%;
+  bottom: 5%;
   transform: translate(-50%, -50%);
   color: var(--heading-color);
 }
