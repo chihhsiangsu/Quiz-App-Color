@@ -22,6 +22,7 @@ body {
   margin-top: 75px;
   margin-bottom: 90px;
   background-color: var(--background-color-secondary);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 main {
