@@ -96,3 +96,8 @@ header {
 .body--dark {
   background-color: var(--background-color-primary);
 }
+
+.header__colorSwitch--dark {
+  background-color: #17174c;
+  color: var(--background-color-tertiary);
+}
