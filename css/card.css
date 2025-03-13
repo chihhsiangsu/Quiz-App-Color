@@ -66,3 +66,7 @@ section {
   padding: 2px;
   margin-left: 2px;
 }
+
+.card--dark {
+  background-color: #17174c;
+}
