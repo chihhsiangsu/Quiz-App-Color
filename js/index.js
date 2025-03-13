@@ -9,5 +9,9 @@ darkModeButton.addEventListener("click", () => {
 
   cards.forEach((card) => {
     card.classList.toggle("card--dark");
+
+    darkModeButton.textContent = body.classList.contains("body--dark")
+      ? "Light Mode"
+      : "Dark Mode";
   });
 });
