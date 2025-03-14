@@ -1,7 +1,7 @@
-const darkModeButton = document.querySelector('[data-js="colorSwitch"]');
-console.log(darkModeButton);
+const darkModeButton = document.querySelector('[data-js="toggle-theme"]');
 const body = document.querySelector('[data-js="body"]');
 const cards = document.querySelectorAll('[data-js="card"]');
+const heading = document.querySelector('[data-js="heading-toggle-theme"]');
 
 darkModeButton.addEventListener("click", () => {
   body.classList.toggle("body--dark");
@@ -10,8 +10,12 @@ darkModeButton.addEventListener("click", () => {
   cards.forEach((card) => {
     card.classList.toggle("card--dark");
 
-    darkModeButton.textContent = body.classList.contains("body--dark")
-      ? "Light Mode"
-      : "Dark Mode";
+    if (body.classList.contains("body--dark")) {
+      darkModeButton.textContent = "Light Mode";
+      heading.textContent = "=.=";
+    } else {
+      darkModeButton.textContent = "Dark Mode";
+      heading.textContent = "QQ";
+    }
   });
 });

@@ -57,6 +57,10 @@ section {
   left: 50%;
   bottom: 5%;
   transform: translate(-50%, -50%);
+  color: var(--border-color-primary);
+}
+
+.card__answer--reveal {
   color: var(--heading-color);
 }
 

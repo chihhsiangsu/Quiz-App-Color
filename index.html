@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="./js/index.js" defer></script>
     <script src="./js/theme.js" defer></script>
+    <script src="./js/card.js" defer></script>
   </head>
   <body data-js="body">
     <header class="header">
-      <h1 class="header__heading">QQ</h1>
+      <h1 class="header__heading" data-js="heading-toggle-theme">QQ</h1>
       <h2 class="header__subheading">Fun Facts About Tears</h2>
-      <button class="header__colorSwitch" data-js="colorSwitch">dark mode</button>
+      <button class="header__toggle-theme" data-js="toggle-theme">dark mode</button>
     </header>
 
     <main>
       <section class="card" data-js="card">
         <h2 class="card__question">What percentage of tears are made up of water?</h2>
-        <button class="card__bookmark">
-          <img src="./assets/hearttwo.png" alt="heart" />
+        <button class="card__bookmark" data-js="bookmark-toggle">
+          <img src="./assets/heartone.png" alt="heart" data-js="bookmark-image"/>
         </button>
         <button class="card__answerclick">Show answer</button>
         <p class="card__answer">90%</p>
@@ -46,7 +47,7 @@
       <section class="card" data-js="card">
         <h2 class="card__question">What are the three types pf tears?</h2>
         <button class="card__bookmark">
-          <img src="./assets/hearttwo.png" alt="heart" />
+          <img src="./assets/heartone.png" alt="heart" />
         </button>
         <button class="card__answerclick">Show answer</button>
         <p class="card__answer">Basal, Reflex, Emotional</p>
@@ -60,7 +61,7 @@
       <section class="card" data-js="card">
         <h2 class="card__question">What shape do emotional tears take under a microscope?</h2>
         <button class="card__bookmark">
-          <img src="./assets/hearttwo.png" alt="heart" />
+          <img src="./assets/heartone.png" alt="heart" />
         </button>
         <button class="card__answerclick">Show answer</button>
         <p class="card__answer">Snowflake</p>
