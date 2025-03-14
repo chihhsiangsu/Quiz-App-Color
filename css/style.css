@@ -75,22 +75,18 @@ header {
   gap: 10px;
 }
 
-.footer__homepage {
-  width: 75px;
+.footer__button {
+  width: 60px;
   height: 50px;
+  background-color: var(--background-color-tertiary);
+}
+
+#footer__button-home {
   background-color: var(--background-color-secondary);
 }
 
-.footer__bookmarkspage {
-  width: 75px;
-  height: 50px;
-  background-color: var(--background-color-tertiary);
-}
-
-.footer__profilepage {
-  width: 75px;
-  height: 50px;
-  background-color: var(--background-color-tertiary);
+#footer__add-icon {
+  background-color: transparent;
 }
 
 .body--dark {

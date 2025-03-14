@@ -22,6 +22,7 @@ body {
   margin-top: 75px;
   margin-bottom: 90px;
   background-color: var(--background-color-secondary);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 main {
@@ -51,7 +52,18 @@ header {
   color: var(--background-color-tertiary);
 }
 
-footer {
+.header__toggle-theme {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  color: var(--heading-color);
+  background-color: #ff930f;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
@@ -63,20 +75,21 @@ footer {
   gap: 10px;
 }
 
-.footer__homepage {
-  width: 75px;
+.footer__button {
+  width: 60px;
   height: 50px;
   background-color: var(--background-color-tertiary);
 }
 
-.footer__bookmarkspage {
-  width: 75px;
-  height: 50px;
-  background-color: var(--background-color-tertiary);
+#footer__add-icon {
+  background-color: transparent;
 }
 
-.footer__profilepage {
-  width: 75px;
-  height: 50px;
-  background-color: var(--background-color-secondary);
+.body--dark {
+  background-color: var(--background-color-primary);
+}
+
+.header__colorSwitch--dark {
+  background-color: #17174c;
+  color: var(--background-color-tertiary);
 }
