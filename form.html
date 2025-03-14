@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Quiz</title>
-    <link rel="stylesheet" href="css/addcard-style.css" />
+    <link rel="stylesheet" href="css/form-style.css" />
+    <script src="js/form.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -15,23 +16,23 @@
       </button>
     </header>
     <main>
-      <form>
+      <form data-js="card__form">
         <fieldset>
           <legend>Add New Quiz Question</legend>
-          <lebal for="add-question"></lebal>
+          <lebel for="add-question"></lebel>
           <input type="text" name="addQuestion" id="add-question" />
         </fieldset>
         <fieldset>
           <legend>Add New Quiz Answer</legend>
-          <lebal for="add-answer"></lebal>
-          <input type="text" name="addHnswer" id="add-answer" />
+          <lebel for="add-answer"></lebel>
+          <input type="text" name="addAnswer" id="add-answer" />
         </fieldset>
         <fieldset>
           <legend>Add Hashtags</legend>
-          <lebal for="add-hashtag"></lebal>
+          <lebel for="add-hashtag"></lebel>
           <input type="text" name="addHashtag" id="add-hashtag" />
         </fieldset>
-        <lebal for="submit-button"></lebal>
+        <lebel for="submit-button"></lebel>
         <button type="submit" name="submitButton" id="submit-button">
           Submit
         </button>
@@ -48,7 +49,7 @@
           <img src="./assets/hearttwo.png" alt="heart two" />
         </button>
       </a>
-      <a href="add-element.html">
+      <a href="form.html">
         <button class="footer__button" id="footer__button-add">
           <img
             src="./assets/add-icon.svg"
