@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Quiz</title>
+    <link rel="stylesheet" href="css/addcard-style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__heading">QQ</h1>
+      <h2 class="header__subheading">Fun Facts About Tears</h2>
+      <button class="header__toggle-theme" data-js="toggle-theme">
+        dark mode
+      </button>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Add New Quiz Question</legend>
+          <lebal for="add-question"></lebal>
+          <input type="text" name="addQuestion" id="add-question" />
+        </fieldset>
+        <fieldset>
+          <legend>Add New Quiz Answer</legend>
+          <lebal for="add-answer"></lebal>
+          <input type="text" name="addHnswer" id="add-answer" />
+        </fieldset>
+        <fieldset>
+          <legend>Add Hashtags</legend>
+          <lebal for="add-hashtag"></lebal>
+          <input type="text" name="addHashtag" id="add-hashtag" />
+        </fieldset>
+        <lebal for="submit-button"></lebal>
+        <button type="submit" name="submitButton" id="submit-button">
+          Submit
+        </button>
+      </form>
+    </main>
+    <footer class="footer">
+      <a href="index.html">
+        <button class="footer__button" id="footer__button-home">
+          <img src="./assets/heartone.png" alt="heart one" />
+        </button>
+      </a>
+      <a href="bookmarks.html">
+        <button class="footer__button" id="footer__button-bookmark">
+          <img src="./assets/hearttwo.png" alt="heart two" />
+        </button>
+      </a>
+      <a href="add-element.html">
+        <button class="footer__button" id="footer__button-add">
+          <img
+            src="./assets/add-icon.svg"
+            alt="heart two"
+            id="footer__add-icon"
+          />
+        </button>
+      </a>
+      <a href="profile.html">
+        <button class="footer__button" id="footer__button-profile">
+          <img src="./assets/profile.png" alt="profile" />
+        </button>
+      </a>
+    </footer>
+  </body>
+</html>

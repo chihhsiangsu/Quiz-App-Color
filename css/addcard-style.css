@@ -1,5 +1,3 @@
-@import "bookmarked-card.css";
-
 :root {
   --background-color-primary: #000000;
   --background-color-secondary: #ff930f;
@@ -19,7 +17,7 @@
 }
 
 body {
-  margin-top: 75px;
+  margin-top: 85px;
   margin-bottom: 90px;
   background-color: var(--background-color-secondary);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -81,7 +79,7 @@ header {
   background-color: var(--background-color-tertiary);
 }
 
-#footer__button-bookmark {
+#footer__button-add {
   background-color: var(--background-color-secondary);
 }
 

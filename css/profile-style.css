@@ -81,8 +81,8 @@ header {
   background-color: var(--background-color-tertiary);
 }
 
-#footer__add-icon {
-  background-color: transparent;
+#footer__button-profile {
+  background-color: var(--background-color-secondary);
 }
 
 .body--dark {

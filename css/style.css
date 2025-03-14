@@ -85,10 +85,6 @@ header {
   background-color: var(--background-color-secondary);
 }
 
-#footer__add-icon {
-  background-color: transparent;
-}
-
 .body--dark {
   background-color: var(--background-color-primary);
 }
