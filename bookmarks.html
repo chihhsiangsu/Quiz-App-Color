@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Quiz</title>
     <link rel="stylesheet" href="css/bookmarked-style.css" />
+    <script src="./js/theme.js" defer></script>
   </head>
-  <body>
+  <body data-js="body">
     <header class="header">
-      <h1 class="header__heading">QQ</h1>
+      <h1 class="header__heading" data-js="heading-toggle-theme">QQ</h1>
       <h2 class="header__subheading">Fun Facts About Tears</h2>
       <button class="header__toggle-theme" data-js="toggle-theme">
         dark mode
@@ -16,7 +17,7 @@
     </header>
 
     <main>
-      <section class="card">
+      <section class="card" data-js="card">
         <h2 class="card__question">
           What percentage of tears are made up of water?
         </h2>
@@ -32,7 +33,7 @@
         </article>
       </section>
 
-      <section class="card">
+      <section class="card" data-js="card">
         <h2 class="card__question">What are the three types pf tears?</h2>
         <button class="card__bookmark">
           <img src="./assets/hearttwo.png" alt="heart" />
@@ -46,7 +47,7 @@
         </article>
       </section>
 
-      <section class="card">
+      <section class="card" data-js="card">
         <h2 class="card__question">
           What shape do emotional tears take under a microscope?
         </h2>
