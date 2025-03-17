@@ -20,20 +20,36 @@
       <form data-js="card__form">
         <fieldset>
           <legend>Add New Quiz Question</legend>
-          <lebel for="add-question"></lebel>
-          <input type="text" name="addQuestion" id="add-question" />
+          <label for="add-question"></label>
+          <input
+            type="text"
+            name="addQuestion"
+            id="add-question"
+            maxlength="50"
+            data-js="add-question"
+          />
+          <p data-js="question-counter">50 charaters max</p>
         </fieldset>
         <fieldset>
           <legend>Add New Quiz Answer</legend>
-          <lebel for="add-answer"></lebel>
-          <input type="text" name="addAnswer" id="add-answer" />
+          <label for="add-answer"></label>
+          <input type="text" name="addAnswer" id="add-answer" maxlength="50" data-js="add-answer" />
+          <p data-js="answer-counter">50 charaters max</p>
+        </fieldset>
         </fieldset>
         <fieldset>
           <legend>Add Hashtags</legend>
-          <lebel for="add-hashtag"></lebel>
-          <input type="text" name="addHashtag" id="add-hashtag" />
+          <label for="add-hashtag"></label>
+          <input
+            type="text"
+            name="addHashtag"
+            id="add-hashtag"
+            maxlength="10"
+            data-js="add-hashtag"
+          />
+          <p data-js="hashtag-counter">10 charaters max</p>
         </fieldset>
-        <lebel for="submit-button"></lebel>
+        <label for="submit-button"></label>
         <button type="submit" name="submitButton" id="submit-button">
           Submit
         </button>

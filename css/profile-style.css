@@ -19,7 +19,7 @@
 }
 
 body {
-  margin-top: 75px;
+  margin-top: 90px;
   margin-bottom: 90px;
   background-color: var(--background-color-secondary);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -54,13 +54,27 @@ header {
 
 .header__toggle-theme {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  bottom: 90px;
   font-weight: bold;
   color: var(--heading-color);
   background-color: #ff930f;
   border-radius: 5px;
   padding: 3px;
+  font-size: 2rem;
+}
+
+.profile-photo {
+  border: 3px solid;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px, 6px 6px 0px 0px;
+}
+
+.profile-info {
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: var(--heading-color);
 }
 
 .footer {

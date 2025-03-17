@@ -43,6 +43,38 @@ form.addEventListener("submit", (event) => {
   });
 });
 
+const questionInput = document.querySelector('[data-js="add-question"]');
+const questionInputLeft = document.querySelector(
+  '[data-js="question-counter"]'
+);
+const maxQuestionLength = questionInput.maxLength;
+
+questionInput.addEventListener("input", () => {
+  const remaining =
+    maxQuestionLength - questionInput.value.length + " characters left";
+  questionInputLeft.textContent = remaining;
+});
+
+const answerInput = document.querySelector('[data-js="add-answer"]');
+const answerInputLeft = document.querySelector('[data-js="answer-counter"]');
+const maxAnswerLength = answerInput.maxLength;
+
+answerInput.addEventListener("input", () => {
+  const remaining =
+    maxAnswerLength - answerInput.value.length + " characters left";
+  answerInputLeft.textContent = remaining;
+});
+
+const hashtagInput = document.querySelector('[data-js="add-hashtag"]');
+const hashtagInputLeft = document.querySelector('[data-js="hashtag-counter"]');
+const maxHashtagLength = hashtagInput.maxLength;
+
+hashtagInput.addEventListener("input", () => {
+  const remaining =
+    maxHashtagLength - hashtagInput.value.length + " characters left";
+  hashtagInputLeft.textContent = remaining;
+});
+
 /*
 
 <section class="card" data-js="card">

@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Quiz</title>
     <link rel="stylesheet" href="css/profile-style.css" />
+    <script src="./js/theme.js" defer></script>
   </head>
   <body data-js="body">
     <header class="header">
       <h1 class="header__heading" data-js="heading-toggle-theme">QQ</h1>
       <h2 class="header__subheading">Fun Facts About Tears</h2>
-      <button class="header__toggle-theme" data-js="toggle-theme">
-        dark mode
-      </button>
     </header>
     <main>
-      <section class="profile-face">
-        <h2></h2>
-        <h2>@@</h2>
+      <section class="profile">
+        <img
+          src="./assets/profilephoto.png"
+          alt="profile imge"
+          class="profile-photo"
+          width="250"
+        />
+        <p class="profile-info">User Name: Baby Seal</p>
       </section>
-      <section>
-        <button class="profile-photo"></button>
-      </section>
-      <section></section>
+      <button class="header__toggle-theme" data-js="toggle-theme">
+        Dark Mode
+      </button>
     </main>
     <footer class="footer">
       <a href="index.html">
